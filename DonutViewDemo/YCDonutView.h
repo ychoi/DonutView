@@ -1,5 +1,5 @@
 //
-//  YCViewController.h
+//  YCDonutView.h
 //  DonutViewDemo
 //
 //  Created by Young Choi on 5/6/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YCViewController : UIViewController<UIGestureRecognizerDelegate>
+@interface YCDonutView : UIView
 
 @end

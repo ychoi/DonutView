@@ -21,6 +21,7 @@
 		C3EA3A4E1AFB1D300042ED7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EA3A301AFB1D300042ED7E /* UIKit.framework */; };
 		C3EA3A561AFB1D300042ED7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3EA3A541AFB1D300042ED7E /* InfoPlist.strings */; };
 		C3EA3A581AFB1D300042ED7E /* DonutViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EA3A571AFB1D300042ED7E /* DonutViewDemoTests.m */; };
+		C3EA3A631AFB1D540042ED7E /* YCDonutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EA3A621AFB1D540042ED7E /* YCDonutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C3EA3A531AFB1D300042ED7E /* DonutViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonutViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C3EA3A551AFB1D300042ED7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3EA3A571AFB1D300042ED7E /* DonutViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonutViewDemoTests.m; sourceTree = "<group>"; };
+		C3EA3A611AFB1D540042ED7E /* YCDonutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCDonutView.h; sourceTree = "<group>"; };
+		C3EA3A621AFB1D540042ED7E /* YCDonutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCDonutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				C3EA3A421AFB1D300042ED7E /* YCViewController.m */,
 				C3EA3A441AFB1D300042ED7E /* Images.xcassets */,
 				C3EA3A331AFB1D300042ED7E /* Supporting Files */,
+				C3EA3A611AFB1D540042ED7E /* YCDonutView.h */,
+				C3EA3A621AFB1D540042ED7E /* YCDonutView.m */,
 			);
 			path = DonutViewDemo;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EA3A3D1AFB1D300042ED7E /* YCAppDelegate.m in Sources */,
+				C3EA3A631AFB1D540042ED7E /* YCDonutView.m in Sources */,
 				C3EA3A431AFB1D300042ED7E /* YCViewController.m in Sources */,
 				C3EA3A391AFB1D300042ED7E /* main.m in Sources */,
 			);
